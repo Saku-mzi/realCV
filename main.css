@@ -22,6 +22,7 @@ header a {
 }
 
 main {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: repeat(30, 1fr);
