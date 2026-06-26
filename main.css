@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   color: rgb(255, 153, 0);
+  font-family: Geneva, "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 
 body {
@@ -20,7 +21,6 @@ main {
 
 main div {
   border-radius: 1em;
-  background-color: antiquewhite;
 }
 
 #bottom {
