@@ -29,9 +29,9 @@ main div {
   grid-row: 25 / 30;
   display: flex;
   contain: content;
-  place-items: center;
   p {
     position: absolute;
+    bottom: 0;
   }
 }
 
@@ -73,7 +73,7 @@ main div {
   place-items: center;
   text-align: center;
   text-decoration: none;
-  border-radius: 100px;
+  border-radius: 200px;
   contain: content;
   b {
     position: absolute;
@@ -81,11 +81,13 @@ main div {
   }
   img {
     position: absolute;
+    width: 500%;
   }
   transition: 0.5s ease-in-out;
 }
 #frstRght:hover {
   transform: scale(1.1);
+  opacity: 0.8;
 }
 
 #socials {
@@ -114,7 +116,7 @@ main div {
 
 .images {
   filter: blur(1px);
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #tradeText {
@@ -122,5 +124,10 @@ main div {
 }
 
 #copyText {
-  left: 5rem;
+  left: 1rem;
+}
+
+.socialsFr:hover {
+  transform: scale(1.1);
+  filter: invert(0.5);
 }
